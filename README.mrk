@@ -1,0 +1,30 @@
+
+!unidoc
+!title 3d Maze
+!maketitle
+
+!= Installation
+The following package is to be installed (or compiled) in your Linux distribution. On Devuan Linux, the installation is 
+for instance:
+!bcode
+sudo apt-get install ncurses-dev
+!ecode
+
+!= Compilation
+To compile the 3D maze with ncurses library, the 
+!bold make 
+application will help.
+The application !bold make 
+do in fact the following: 
+!bcode
+  gcc -lncurses -lm 3dmaze4console.c -o 3dmaze4console 
+!ecode
+
+
+!= Conclusion
+Have fun with development.
+
+
+/// modified content from: 
+//  tire de :  https://gist.github.com/JohnnyonFlame
+
