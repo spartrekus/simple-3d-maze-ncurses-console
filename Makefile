@@ -1,4 +1,5 @@
 
 
 maze:
-	   gcc -lm -lncurses raymaze.c -o raymaze 
+	   gcc -lm -lncurses 3dmaze4console.c -o 3dmaze4console 
+
