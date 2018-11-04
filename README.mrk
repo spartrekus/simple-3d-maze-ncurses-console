@@ -14,7 +14,8 @@ sudo apt-get install ncurses-dev
 To compile the 3D maze with ncurses library, the 
 !bold make 
 application will help.
-The application !bold make 
+The application 
+!bold make 
 do in fact the following: 
 !bcode
   gcc -lncurses -lm 3dmaze4console.c -o 3dmaze4console 
